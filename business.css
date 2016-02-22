@@ -1,0 +1,104 @@
+html, body, .container {
+  height: 100%;
+  width: 100%;
+}
+
+h1 h2 h3 {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+p {
+  margin: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+/*   BARRE DE NAVIGATION */
+header, .connect, ul {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(248, 248, 248, 0.5); ;
+  box-shadow: 0px 9px 7px -4px rgba(0,0,0,0.61);
+}
+
+.connect {
+  margin: 25px 0;
+}
+
+a {
+  font-weight: bold;
+  color: pink;
+  font-size: 20px;
+  font-family: cursive;;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+a:hover {
+  width: 30px;
+  height: 28px;
+  border-bottom: 5px #3366FF solid;
+  padding-bottom: 5px;
+  transition: 0.4s;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 25px;
+}
+
+.neofont {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #3366FF;
+}
+.plan {
+  margin-left: -9px;
+  color: #3399FF;
+  margin-right: 40px;
+}
+ul nav{
+  text-decoration: none;
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+main {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 2;
+  padding: 2em;
+  margin: 3em;
+}
+.hist, .pres, .prob, .solu, .mar, .ste, .com, .mar {
+
+}
+.hist img {
+  float:right;
+  margin-top: 1px;
+}
+.hist p {
+  clear: right;
+}
+.pres img {
+  float:right;
+  margin: 2em;
+}
+main li {
+  flex-direction: column;
+}
