@@ -2,12 +2,12 @@ html, body, .container {
   height: 100%;
   width: 100%;
 }
-
-h1 h2 h3 {
-  text-align: center;
-  left: 50%;
-  top: 50%;
+section {
+  width: 100%;
+  left : 50%;
+  right: 50%;
 }
+
 p {
   margin: 5px;
 }
@@ -16,13 +16,18 @@ p {
   flex-direction: column;
 }
 /*   BARRE DE NAVIGATION */
-header, .connect, ul {
+header, .connect {
   display: inline-flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
-
+nav ul{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
 header {
   width: 100%;
   background-color: rgba(248, 248, 248, 0.5); ;
@@ -68,12 +73,12 @@ a:hover {
   color: #3399FF;
   margin-right: 40px;
 }
-ul nav{
+ul {
   text-decoration: none;
-  padding-left: 0;
+  padding-left: 60px;
 }
 
-nav li {
+li {
   list-style-type: none;
 }
 main {
@@ -86,7 +91,7 @@ main {
   margin: 3em;
 }
 .hist, .pres, .prob, .solu, .mar, .ste, .com, .mar {
-
+margin: 10px;
 }
 .hist img {
   float:right;
@@ -99,6 +104,11 @@ main {
   float:right;
   margin: 2em;
 }
-main li {
-  flex-direction: column;
+.prob img {
+  margin: 5em;
+}
+
+
+h1 h2 h3 {
+color: pink;
 }
